@@ -1,9 +1,16 @@
+import { useState } from "react";
 import Navbar from "./Navbar";
 
 const Header = () => {
+  const [MyBalance, setMyBalance] = useState(0);
+
+  const handleAcoountBalance = () => {
+    setMyBalance(MyBalance + 8020000);
+  };
+
   return (
     <header className="w-10/12 h-[44rem] mx-auto flex flex-col justify-center gap-8">
-      <Navbar></Navbar>
+      <Navbar balance={MyBalance}></Navbar>
       <div className="h-[34rem] w-full pb-5 bg-[url('/public/bg-shadow.png')] bg-no-repeat bg-cover bg-[#131313] rounded-3xl border border-[#131313]/10 flex flex-col justify-center items-center gap-10">
         <img
           src="/public/banner-main.png"
@@ -19,7 +26,10 @@ const Header = () => {
           </p>
         </div>
         <div className="w-44 h-16 p-2 bg-[#FFF]/5 border border-[#E7FE29] rounded-2xl flex justify-center items-center">
-          <button className="btn font-bold text-[#131313] bg-[#E7FE29] shadow-inner rounded-xl">
+          <button
+            className="btn font-bold text-[#131313] bg-[#E7FE29] shadow-inner rounded-xl"
+            onClick={handleAcoountBalance}
+          >
             Claim Free Credit
           </button>
         </div>

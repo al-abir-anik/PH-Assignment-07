@@ -2,7 +2,6 @@
 
 const Card = ({ card }) => {
   const {
-    id,
     cover_img,
     profile_img,
     name,
