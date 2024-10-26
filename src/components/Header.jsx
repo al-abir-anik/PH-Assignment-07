@@ -1,13 +1,18 @@
 import Navbar from "./Navbar";
+import bgShadow from "../assets/bg-shadow.png";
+import banner from "../assets/banner-main.png";
 
 // eslint-disable-next-line react/prop-types
 const Header = ({ balance, handleFreeCredit }) => {
   return (
     <header className="w-10/12 h-[44rem] mx-auto flex flex-col justify-center gap-8">
       <Navbar balance={balance}></Navbar>
-      <div className="h-[34rem] w-full pb-5 bg-[url('/public/bg-shadow.png')] bg-no-repeat bg-cover bg-[#131313] rounded-3xl border border-[#131313]/10 flex flex-col justify-center items-center gap-10">
+      <div
+        className="h-[34rem] w-full pb-5 bg-no-repeat bg-cover bg-[#131313] rounded-3xl border border-[#131313]/10 flex flex-col justify-center items-center gap-10"
+        style={{ backgroundImage: `url(${bgShadow})` }}
+      >
         <img
-          src="/public/banner-main.png"
+          src={banner}
           alt="banner-picture"
           className="w-64"
         />

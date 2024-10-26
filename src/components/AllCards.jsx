@@ -7,7 +7,7 @@ const AllCards = ({ selectedPlayer }) => {
   const [AllPlayers, setAllPlayers] = useState([]);
 
   useEffect(() => {
-    fetch("/public/players.json")
+    fetch('/players.json')
       .then((res) => res.json())
       .then((data) => setAllPlayers(data))
       .catch((error) => console.error("Error fetching data:", error));

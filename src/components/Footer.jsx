@@ -1,4 +1,5 @@
 import Subscription from "./Subscription";
+import logoFooter from "../assets/logo-footer.png";
 
 const Footer = () => {
   return (
@@ -9,7 +10,7 @@ const Footer = () => {
         <div className="w-full h-60 "></div>
       </div>
       <div className="w-3/4 mx-auto flex flex-col justify-center items-center gap-16">
-        <img src="/public/logo-footer.png" />
+        <img src={logoFooter} />
         <div className="grid grid-cols-3 gap-32">
           <div className="w-auto space-y-3">
             <h5 className="font-semibold text-white">About Us</h5>

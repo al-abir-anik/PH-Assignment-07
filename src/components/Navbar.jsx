@@ -1,3 +1,6 @@
+import logo from "../assets/logo.png";
+import coin from "../assets/coin.png";
+
 // eslint-disable-next-line react/prop-types
 const Navbar = ({ balance }) => {
   return (
@@ -6,7 +9,7 @@ const Navbar = ({ balance }) => {
      flex items-center justify-between h-20"
     >
       <a href="#">
-        <img src="/public/logo.png" alt="logo" className="w-16" />
+        <img src={logo} alt="logo" className="w-16" />
       </a>
       <div className="flex items-center gap-12">
         <a href="#" className="text-[#131313]/70">
@@ -26,7 +29,7 @@ const Navbar = ({ balance }) => {
             {" "}
             {balance} Coin
           </p>
-          <img src="/public/coin.png" className="w-5" />
+          <img src={coin} className="w-5" />
         </div>
       </div>
     </nav>
