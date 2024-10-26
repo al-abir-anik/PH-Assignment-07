@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 
-const ChosenPlayers = ({player}) => {
+const ChosenPlayers = ({ player, handleRemoveplayer }) => {
   return (
     <div className="h-36 p-10 border border-[#131313]/10 rounded-2xl flex justify-between items-center gap-3">
       <div className="avatar">
@@ -13,7 +13,9 @@ const ChosenPlayers = ({player}) => {
           <p className="text-xl font-semibold text-[#131313]">{player.name}</p>
           <p className="font-medium text-[#131313]/60">{player.role}</p>
         </div>
-        <button className="btn">delete</button>
+        <button onClick={() => handleRemoveplayer(player.id)} className="btn">
+          delete
+        </button>
       </div>
     </div>
   );

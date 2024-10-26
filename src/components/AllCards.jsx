@@ -3,7 +3,7 @@ import { useState } from "react";
 import Card from "./Card";
 
 // eslint-disable-next-line react/prop-types
-const AllCards = ({selectedPlayer}) => {
+const AllCards = ({ selectedPlayer }) => {
   const [AllPlayers, setAllPlayers] = useState([]);
 
   useEffect(() => {
@@ -16,7 +16,11 @@ const AllCards = ({selectedPlayer}) => {
   return (
     <div className="grid grid-cols-3 gap-10">
       {AllPlayers.map((player) => (
-        <Card key={player.id} card={player} selectedPlayer={selectedPlayer}></Card>
+        <Card
+          key={player.id}
+          card={player}
+          selectedPlayer={selectedPlayer}
+        ></Card>
       ))}
     </div>
   );

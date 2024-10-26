@@ -7,13 +7,13 @@ import { toast, ToastContainer } from "react-toastify";
 
 function App() {
   const [MyBalance, setMyBalance] = useState(0);
+  const [ActiveComponent, setActiveComponent] = useState("AllCards");
+  const [SelectedPlayers, setSelectedPlayers] = useState([]);
 
   const handleFreeCredit = () => {
     setMyBalance(MyBalance + 8020000);
+    toast.success("Coin added to account successfully");
   };
-
-  const [ActiveComponent, setActiveComponent] = useState("AllCards");
-  const [SelectedPlayers, setSelectedPlayers] = useState([]);
 
   const handleSelectedPlayer = (player) => {
     if (SelectedPlayers.length < 6) {
@@ -22,17 +22,28 @@ function App() {
           (selectedPlayer) => selectedPlayer.id === player.id
         )
       ) {
-        setSelectedPlayers((prevPlayers) => [...prevPlayers, player]);
-
-        toast.success(`${player.name} has been added successfully!`);
-        
-        setMyBalance(MyBalance - player.price);
+        if (MyBalance >= player.price) {
+          setSelectedPlayers((prevPlayers) => [...prevPlayers, player]);
+          toast.success(`${player.name} has been added successfully!`);
+          setMyBalance(MyBalance - player.price);
+        } else {
+          toast.error("Insufficient balance to select this player.");
+        }
       } else {
         toast.error("You have already chosen this player.");
       }
     } else {
       toast.error("You can only choose up to 6 players.");
     }
+  };
+
+  const handleRemoveplayer = (playerId) => {
+    const playerToRemove = SelectedPlayers.find(({ id }) => id === playerId);
+    setSelectedPlayers((prevPlayers) =>
+      prevPlayers.filter((p) => p.id !== playerId)
+    );
+    setMyBalance((prevBalance) => prevBalance + playerToRemove.price);
+    toast.info("Player removed.");
   };
 
   return (
@@ -44,6 +55,7 @@ function App() {
         handleSelectedPlayer={handleSelectedPlayer}
         SelectedPlayers={SelectedPlayers}
         setSelectedPlayers={setSelectedPlayers}
+        handleRemoveplayer={handleRemoveplayer}
       ></MainSection>
       <Footer></Footer>
       <ToastContainer></ToastContainer>

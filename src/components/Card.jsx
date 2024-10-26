@@ -1,9 +1,8 @@
 /* eslint-disable react/prop-types */
 
-const Card = ({ card , selectedPlayer}) => {
+const Card = ({ card, selectedPlayer }) => {
   const {
     cover_img,
-    profile_img,
     name,
     country_name,
     role,
@@ -15,13 +14,14 @@ const Card = ({ card , selectedPlayer}) => {
 
   return (
     <div className="card bg-base-100 w-auto p-8 border border-[#131313]/10 space-y-6">
-      <img
-        src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-        className="rounded-xl"
-      />
+      <img src={cover_img} className="rounded-xl h-60 bg-cover" />
       <div className="space-y-1">
-        <div>
-          <img src="" />
+        <div className="flex items-center gap-3">
+          <div className="avatar">
+            <div className="w-8 rounded-full">
+              <img src="https://i.ibb.co.com/KVvr7bw/logo.png" />
+            </div>
+          </div>
           <p className="text-xl font-semibold text-[#131313]">{name}</p>
         </div>
         <div className="flex justify-between items-center">
@@ -40,7 +40,12 @@ const Card = ({ card , selectedPlayer}) => {
         </div>
         <div className="flex justify-between items-center">
           <p>Price: ${price}</p>
-          <button onClick={()=>selectedPlayer(card)} className="btn btn-accent bg-white border h-10 min-h-10">Choose Player</button>
+          <button
+            onClick={() => selectedPlayer(card)}
+            className="btn btn-accent bg-white border h-10 min-h-10"
+          >
+            Choose Player
+          </button>
         </div>
       </div>
     </div>

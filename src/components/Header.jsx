@@ -1,9 +1,7 @@
 import Navbar from "./Navbar";
 
 // eslint-disable-next-line react/prop-types
-const Header = ({balance, handleFreeCredit}) => {
-  
-
+const Header = ({ balance, handleFreeCredit }) => {
   return (
     <header className="w-10/12 h-[44rem] mx-auto flex flex-col justify-center gap-8">
       <Navbar balance={balance}></Navbar>

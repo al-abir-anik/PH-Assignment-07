@@ -3,9 +3,13 @@ import AllCards from "./AllCards";
 import SelectedSection from "./SelectedSection";
 import "react-toastify/dist/ReactToastify.css";
 
-const MainSection = ({ActiveComponent, setActiveComponent, handleSelectedPlayer, SelectedPlayers}) => {
-  
-
+const MainSection = ({
+  ActiveComponent,
+  setActiveComponent,
+  handleSelectedPlayer,
+  SelectedPlayers,
+  handleRemoveplayer,
+}) => {
   return (
     <main className="w-3/4 mx-auto my-10 pb-5 space-y-10">
       <section className="flex justify-between items-center">
@@ -46,6 +50,7 @@ const MainSection = ({ActiveComponent, setActiveComponent, handleSelectedPlayer,
           <SelectedSection
             setActiveComponent={setActiveComponent}
             selectedPlayers={SelectedPlayers}
+            handleRemoveplayer={handleRemoveplayer}
           ></SelectedSection>
         )}
       </section>

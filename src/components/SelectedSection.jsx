@@ -1,12 +1,23 @@
 /* eslint-disable react/prop-types */
 import ChosenPlayers from "./ChosenPlayers";
 
-const SelectedSection = ({ setActiveComponent, selectedPlayers }) => {
+const SelectedSection = ({
+  setActiveComponent,
+  selectedPlayers,
+  handleRemoveplayer,
+}) => {
   return (
-    <section id="selected-players-container" className="w-full h-fit space-y-10">
+    <section
+      id="selected-players-container"
+      className="w-full h-fit space-y-10"
+    >
       <div className="space-y-8">
-        {selectedPlayers.map((player,index) => (
-          <ChosenPlayers key={index} player={player}></ChosenPlayers>
+        {selectedPlayers.map((player, index) => (
+          <ChosenPlayers
+            key={index}
+            player={player}
+            handleRemoveplayer={handleRemoveplayer}
+          ></ChosenPlayers>
         ))}
       </div>
 

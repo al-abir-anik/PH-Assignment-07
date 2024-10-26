@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "cover_img": "https://upload.wikimedia.org/wikipedia/en/1/11/Shakib_Al_Hasan.jpg",
-    "profile_img": "https://upload.wikimedia.org/wikipedia/en/0/0c/Shakib_Al_Hasan_%28cropped%29.jpg",
+    "cover_img": "https://i.ibb.co.com/44jZqZk/Shakib-Al-Hasan-1.jpg",
+    "profile_img": "https://i.ibb.co.com/kxsPPvW/Shakib-Al-Hasan.jpg",
     "name": "Shakib Al Hasan",
     "country_name": "Bangladesh",
     "rating": "9/10",
@@ -13,19 +13,7 @@
   },
   {
     "id": 2,
-    "cover_img": "https://upload.wikimedia.org/wikipedia/en/5/53/Tamim_Iqbal.jpg",
-    "profile_img": "https://upload.wikimedia.org/wikipedia/en/b/b8/Tamim_Iqbal_%28cropped%29.jpg",
-    "name": "Tamim Iqbal",
-    "country_name": "Bangladesh",
-    "rating": "8.5/10",
-    "role": "Batsman",
-    "batting_style": "Left-handed",
-    "bowling_style": "N/A",
-    "price": 2500000
-  },
-  {
-    "id": 3,
-    "cover_img": "https://upload.wikimedia.org/wikipedia/en/4/4b/Chris_Gayle.jpg",
+    "cover_img": "https://i.ibb.co.com/XD1ZJPF/Chris-Gayle-More-Than-Just-An-IPL-Legend.jpg",
     "profile_img": "https://upload.wikimedia.org/wikipedia/en/d/db/Chris_Gayle_%28cropped%29.jpg",
     "name": "Chris Gayle",
     "country_name": "West Indies",
@@ -36,8 +24,8 @@
     "price": 3000000
   },
   {
-    "id": 4,
-    "cover_img": "https://upload.wikimedia.org/wikipedia/en/c/c4/Mahmudullah_Riyad.jpg",
+    "id": 3,
+    "cover_img": "https://i.ibb.co.com/XtDtqr7/image.jpg",
     "profile_img": "https://upload.wikimedia.org/wikipedia/en/1/14/Mahmudullah_%28cropped%29.jpg",
     "name": "Mahmudullah Riyad",
     "country_name": "Bangladesh",
@@ -48,32 +36,8 @@
     "price": 2000000
   },
   {
-    "id": 5,
-    "cover_img": "https://upload.wikimedia.org/wikipedia/en/e/e8/Dale_Steyn.jpg",
-    "profile_img": "https://upload.wikimedia.org/wikipedia/en/c/c0/Dale_Steyn_%28cropped%29.jpg",
-    "name": "Dale Steyn",
-    "country_name": "South Africa",
-    "rating": "9/10",
-    "role": "Bowler",
-    "batting_style": "Right-handed",
-    "bowling_style": "Right-arm fast",
-    "price": 3000000
-  },
-  {
-    "id": 6,
-    "cover_img": "https://upload.wikimedia.org/wikipedia/en/7/7f/Saul_Nervez.jpg",
-    "profile_img": "https://upload.wikimedia.org/wikipedia/en/6/6b/Saul_Nervez_%28cropped%29.jpg",
-    "name": "Saul Nervez",
-    "country_name": "Australia",
-    "rating": "8.8/10",
-    "role": "Batsman",
-    "batting_style": "Right-handed",
-    "bowling_style": "N/A",
-    "price": 2700000
-  },
-  {
-    "id": 7,
-    "cover_img": "https://upload.wikimedia.org/wikipedia/en/e/e8/AB_de_Villiers.jpg",
+    "id": 4,
+    "cover_img": "https://i.ibb.co.com/vLSf4mB/Ab-De-Villiers-Photo-Hd-Wallpaper-4k.jpg",
     "profile_img": "https://upload.wikimedia.org/wikipedia/en/d/d6/AB_de_Villiers_%28cropped%29.jpg",
     "name": "AB de Villiers",
     "country_name": "South Africa",
@@ -84,32 +48,8 @@
     "price": 3000000
   },
   {
-    "id": 8,
-    "cover_img": "https://upload.wikimedia.org/wikipedia/en/f/f6/Mehedi_Hasan.jpg",
-    "profile_img": "https://upload.wikimedia.org/wikipedia/en/4/4a/Mehedi_Hasan_%28cropped%29.jpg",
-    "name": "Mehedi Hasan",
-    "country_name": "Bangladesh",
-    "rating": "7.5/10",
-    "role": "Bowler",
-    "batting_style": "Right-handed",
-    "bowling_style": "Right-arm off-spin",
-    "price": 1900000
-  },
-  {
-    "id": 9,
-    "cover_img": "https://upload.wikimedia.org/wikipedia/en/9/9b/Sabbir_Rahman.jpg",
-    "profile_img": "https://upload.wikimedia.org/wikipedia/en/5/57/Sabbir_Rahman_%28cropped%29.jpg",
-    "name": "Sabbir Rahman",
-    "country_name": "Bangladesh",
-    "rating": "7.6/10",
-    "role": "Batsman",
-    "batting_style": "Right-handed",
-    "bowling_style": "N/A",
-    "price": 1500000
-  },
-  {
-    "id": 10,
-    "cover_img": "https://upload.wikimedia.org/wikipedia/en/a/a1/Imran_Tahir.jpg",
+    "id": 5,
+    "cover_img": "https://i.ibb.co.com/wy06MqF/Imran-Tahir-thanks-R-Ashwin-after-leading-Guyana-Amazon-Warriors-to-CPL-title-Daily-Sports.jpg",
     "profile_img": "https://upload.wikimedia.org/wikipedia/en/1/1f/Imran_Tahir_%28cropped%29.jpg",
     "name": "Imran Tahir",
     "country_name": "South Africa",
@@ -120,20 +60,19 @@
     "price": 2800000
   },
   {
-    "id": 11,
-    "cover_img": "https://upload.wikimedia.org/wikipedia/en/6/69/Soumya_Sarkar.jpg",
-    "profile_img": "https://upload.wikimedia.org/wikipedia/en/9/98/Soumya_Sarkar_%28cropped%29.jpg",
-    "name": "Soumya Sarkar",
+    "id": 6,
+    "cover_img": "https://i.ibb.co.com/sJxQLkJ/After-Shakib-this-time-Tamim-in-the-T10-League.jpg",
+    "name": "Tamim Iqbal",
     "country_name": "Bangladesh",
-    "rating": "8/10",
+    "rating": "8.5/10",
     "role": "Batsman",
     "batting_style": "Left-handed",
     "bowling_style": "N/A",
-    "price": 2300000
+    "price": 2500000
   },
   {
-    "id": 12,
-    "cover_img": "https://upload.wikimedia.org/wikipedia/en/5/57/Lasith_Malinga.jpg",
+    "id": 7,
+    "cover_img": "https://i.ibb.co.com/NLKzMM4/Lasith-Malinga-Retirement-Interesting-facts-and-stats-from-the-legendary-bowler-s-tremendous-career.jpg",
     "profile_img": "https://upload.wikimedia.org/wikipedia/en/7/74/Lasith_Malinga_%28cropped%29.jpg",
     "name": "Lasith Malinga",
     "country_name": "Sri Lanka",
@@ -144,8 +83,8 @@
     "price": 3000000
   },
   {
-    "id": 13,
-    "cover_img": "https://upload.wikimedia.org/wikipedia/en/6/6b/Dwayne_Bravo.jpg",
+    "id": 8,
+    "cover_img": "https://i.ibb.co.com/71pCst7/Enough-is-enough-We-just-want-equality-Dwayne-Bravo-not-happy-with-racism-against-black-people.jpg",
     "profile_img": "https://upload.wikimedia.org/wikipedia/en/a/a1/Dwayne_Bravo_%28cropped%29.jpg",
     "name": "Dwayne Bravo",
     "country_name": "West Indies",
@@ -156,8 +95,8 @@
     "price": 2900000
   },
   {
-    "id": 14,
-    "cover_img": "https://upload.wikimedia.org/wikipedia/en/3/38/David_Warner.jpg",
+    "id": 9,
+    "cover_img": "https://i.ibb.co.com/DGnLSxK/David-Warner-Talks-About-Mystery-Behind-His-Baggy-Green-Which-Was-Lost-Daily-Sports.jpg",
     "profile_img": "https://upload.wikimedia.org/wikipedia/en/1/10/David_Warner_%28cropped%29.jpg",
     "name": "David Warner",
     "country_name": "Australia",
@@ -168,8 +107,8 @@
     "price": 3000000
   },
   {
-    "id": 15,
-    "cover_img": "https://upload.wikimedia.org/wikipedia/en/7/70/Ben_Stokes.jpg",
+    "id": 10,
+    "cover_img": "https://i.ibb.co.com/wYr0X8q/England-Cricket-Team-Player-Ben-Stokes-Back-To-ODI-Format-After-Retirement-World-Cup-2023-Lat.jpg",
     "profile_img": "https://upload.wikimedia.org/wikipedia/en/1/1f/Ben_Stokes_%28cropped%29.jpg",
     "name": "Ben Stokes",
     "country_name": "England",
@@ -180,8 +119,8 @@
     "price": 3000000
   },
   {
-    "id": 16,
-    "cover_img": "https://upload.wikimedia.org/wikipedia/en/8/89/Trent_Boult.jpg",
+    "id": 11,
+    "cover_img": "https://i.ibb.co.com/jkXV9FP/T20-World-Cup-New-Zealand-Pacer-Trent-Boult-Announces-Retirement.jpg",
     "profile_img": "https://upload.wikimedia.org/wikipedia/en/7/7c/Trent_Boult_%28cropped%29.jpg",
     "name": "Trent Boult",
     "country_name": "New Zealand",
@@ -192,8 +131,8 @@
     "price": 3000000
   },
   {
-    "id": 17,
-    "cover_img": "https://upload.wikimedia.org/wikipedia/en/5/54/Rassie_van_der_Dussen.jpg",
+    "id": 12,
+    "cover_img": "https://i.ibb.co.com/XFvC4c5/South-Africa-announce-ODI-squad-for-India-tour.jpg",
     "profile_img": "https://upload.wikimedia.org/wikipedia/en/5/58/Rassie_van_der_Dussen_%28cropped%29.jpg",
     "name": "Rassie van der Dussen",
     "country_name": "South Africa",
@@ -204,8 +143,8 @@
     "price": 2500000
   },
   {
-    "id": 18,
-    "cover_img": "https://upload.wikimedia.org/wikipedia/en/a/a6/Mitchell_Starc.jpg",
+    "id": 13,
+    "cover_img": "https://i.ibb.co.com/m8zysWL/Nothing-I-could-ve-dreamt-of-Daily-Sports.jpg",
     "profile_img": "https://upload.wikimedia.org/wikipedia/en/1/1d/Mitchell_Starc_%28cropped%29.jpg",
     "name": "Mitchell Starc",
     "country_name": "Australia",
@@ -216,8 +155,8 @@
     "price": 3000000
   },
   {
-    "id": 19,
-    "cover_img": "https://upload.wikimedia.org/wikipedia/en/8/8e/Quinton_de_Kock.jpg",
+    "id": 14,
+    "cover_img": "https://i.ibb.co.com/72FCYLw/Quinton-De-Kock-to-retire-from-ODI-cricket-after-World-Cup-2023.jpg",
     "profile_img": "https://upload.wikimedia.org/wikipedia/en/1/19/Quinton_de_Kock_%28cropped%29.jpg",
     "name": "Quinton de Kock",
     "country_name": "South Africa",
@@ -225,18 +164,6 @@
     "role": "Batsman",
     "batting_style": "Left-handed",
     "bowling_style": "N/A",
-    "price": 3000000
-  },
-  {
-    "id": 20,
-    "cover_img": "https://upload.wikimedia.org/wikipedia/en/8/8b/Jasprit_Bumrah.jpg",
-    "profile_img": "https://upload.wikimedia.org/wikipedia/en/3/3f/Jasprit_Bumrah_%28cropped%29.jpg",
-    "name": "Jasprit Bumrah",
-    "country_name": "India",
-    "rating": "9/10",
-    "role": "Bowler",
-    "batting_style": "Right-handed",
-    "bowling_style": "Right-arm fast",
     "price": 3000000
   }
 ]
