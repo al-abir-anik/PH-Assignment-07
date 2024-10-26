@@ -25,7 +25,7 @@ const Header = () => {
             Beyond Boundaries Beyond Limits
           </p>
         </div>
-        <div className="w-44 h-16 p-2 bg-[#FFF]/5 border border-[#E7FE29] rounded-2xl flex justify-center items-center">
+        <div className="w-fit h-16 p-2 bg-[#FFF]/5 border border-[#E7FE29] rounded-2xl flex justify-center items-center">
           <button
             className="btn font-bold text-[#131313] bg-[#E7FE29] shadow-inner rounded-xl"
             onClick={handleAcoountBalance}

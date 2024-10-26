@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 
-const Card = ({ card }) => {
+const Card = ({ card , selectedPlayer}) => {
   const {
     cover_img,
     profile_img,
@@ -40,7 +40,7 @@ const Card = ({ card }) => {
         </div>
         <div className="flex justify-between items-center">
           <p>Price: ${price}</p>
-          <button className="btn btn-accent bg-white border h-10 min-h-10">Choose Player</button>
+          <button onClick={()=>selectedPlayer(card)} className="btn btn-accent bg-white border h-10 min-h-10">Choose Player</button>
         </div>
       </div>
     </div>

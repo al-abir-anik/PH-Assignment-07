@@ -4,11 +4,16 @@ import SelectedSection from "./SelectedSection";
 
 const MainSection = () => {
   const [ActiveComponent, setActiveComponent] = useState("AllCards");
+  const [SelectedPlayers,setSelectedPlayers] =useState([]);
+
+  const handleSelectedPlayer = (player) =>{
+      setSelectedPlayers(prevPlayers => [...prevPlayers, player]);
+  };
 
   return (
-    <main className="w-3/4 mx-auto my-10 pb-10 space-y-10">
+    <main className="w-3/4 mx-auto my-10 pb-5 space-y-10">
       <section className="flex justify-between items-center">
-        <h3 className="text-2xl font-bold text-[#131313]">{ActiveComponent === 'AllCards' ? 'Available Players' : 'Selected Player (4/6)'}</h3>
+        <h3 className="text-2xl font-bold text-[#131313]">{ActiveComponent === 'AllCards' ? 'Available Players' : `Selected Player (${SelectedPlayers.length}/6)`}</h3>
         <ul className="menu menu-vertical lg:menu-horizontal bg-white rounded-box py-2 border border-[#131313]/10 space-x-3">
           <li
             onClick={() => setActiveComponent("AllCards")}
@@ -28,14 +33,14 @@ const MainSection = () => {
                 : "text-[#131313]/60"
             }`}
           >
-            <a>Selected (0)</a>
+            <a>Selected ({SelectedPlayers.length})</a>
           </li>
         </ul>
       </section>
 
       <section>
-        {ActiveComponent === 'AllCards' && <AllCards></AllCards>}
-        {ActiveComponent === 'SelectedSection' && <SelectedSection></SelectedSection>}
+        {ActiveComponent === 'AllCards' && <AllCards selectedPlayer={handleSelectedPlayer}></AllCards>}
+        {ActiveComponent === 'SelectedSection' && <SelectedSection setActiveComponent={setActiveComponent} selectedPlayers={SelectedPlayers}></SelectedSection>}
       </section>
     </main>
   );
